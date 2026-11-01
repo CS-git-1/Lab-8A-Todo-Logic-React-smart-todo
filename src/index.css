@@ -1,0 +1,25 @@
+:root {
+    font-family: "DM Sans", "Noto Sans Thai", Tahoma, sans-serif;
+    color: #202438;
+    background: #f4f6fb;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 64px 20px;
+    background: radial-gradient(ellipse at 15% 0%, #e6eaff 0, transparent 38%), #f4f6fb;
+}
+
+input, select, button { font: inherit; }
+
+@media (max-width: 560px) {
+    body { padding: 36px 15px; }
+}
